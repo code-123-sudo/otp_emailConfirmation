@@ -39,9 +39,6 @@ var passwordController=require('./controllers/password-controller');
 var warehouseController=require('./controllers/warehouse-controller');
 /* route to handle */
 
-app.get('/',function(req,res){
-     res.sendFile( __dirname + '/Factoryverse shop cart/shop-cart/index.html');
-});
 app.post('/api/register',registerController.register);
 app.post('/api/otp',registerController.sendOtp);
 app.post('/login',loginController.login);
