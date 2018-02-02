@@ -2,7 +2,7 @@ var connection = require('./../config');
 var nodemailer=require('nodemailer');
 const https = require('https');
 const SendOtp = require('sendotp');
-const sendOtp = new SendOtp('195080AxXJnCVb5a69a673');
+const sendOtp = new SendOtp('195//////////////XJnCVb5a69a673');
 
 module.exports.register=function(req,res){
   var chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -35,7 +35,7 @@ module.exports.register=function(req,res){
     service: 'Gmail',
     auth: {
               user: 'jainshishir18@gmail.com', // admin email id
-              pass: '@1m_Shishir' // admin password
+              pass: '@////////hir' // admin password
       }
     }) 
    var mailOptions = {
