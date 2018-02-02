@@ -21,9 +21,6 @@ app.use(function(req, res, next) {
     next()
 })
 
-app.use(express.static(__dirname +  '/Factoryverse shop cart/shop-cart'));
-app.use(express.static(__dirname +  '/Factoryverse shop cart/shop-cart/Admin/HTML'));
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(morgan('dev'));
