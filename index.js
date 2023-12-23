@@ -41,7 +41,7 @@ app.post('/api/otp',registerController.sendOtp);
 app.post('/login',loginController.login);
 app.post('/api/addProducts',  productsController.addProducts);
 app.get('/api/fetchProducts', productsController.fetchProducts);
-app.post('/api/lostPassword',passwordController.lostPassword);
+app.post('/api/resetPassword',passwordController.resetPassword);
 app.post('/api/addWarehouse',warehouseController.addWarehouse);
 app.get('/api/fetchWarehouse',warehouseController.fetchWarehouse);
 
