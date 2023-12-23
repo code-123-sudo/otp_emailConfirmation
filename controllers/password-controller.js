@@ -1,7 +1,7 @@
 var connection = require('./../config');
 var nodemailer=require('nodemailer');
 
-module.exports.lostPassword=function(req,res){
+module.exports.resetPassword=function(req,res){
     console.log("here");
     var email=req.body.email;
     console.log(email);
